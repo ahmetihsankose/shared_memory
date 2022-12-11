@@ -6,12 +6,12 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 FILE(GLOB HEADER_FILE ./*h)
-FILE(GLOB SOURCE_FILE ./*c)
+FILE(GLOB SOURCE_FILE ./*cpp)
 
 find_package(Threads REQUIRED)
 
-add_executable(sender ${HEADER_FILE} sender.c)
-add_executable(receiver ${HEADER_FILE} receiver.c)
+add_executable(sender ${HEADER_FILE} sender.cpp)
+add_executable(receiver ${HEADER_FILE} receiver.cpp)
 
 
 target_link_libraries(sender -lpthread)

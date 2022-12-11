@@ -142,53 +142,53 @@ receiver/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/receiver.dir/build.make CMakeFiles/receiver.dir/build
 .PHONY : receiver/fast
 
-receiver.o: receiver.c.o
+receiver.o: receiver.cpp.o
 .PHONY : receiver.o
 
 # target to build an object file
-receiver.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/receiver.dir/build.make CMakeFiles/receiver.dir/receiver.c.o
-.PHONY : receiver.c.o
+receiver.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/receiver.dir/build.make CMakeFiles/receiver.dir/receiver.cpp.o
+.PHONY : receiver.cpp.o
 
-receiver.i: receiver.c.i
+receiver.i: receiver.cpp.i
 .PHONY : receiver.i
 
 # target to preprocess a source file
-receiver.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/receiver.dir/build.make CMakeFiles/receiver.dir/receiver.c.i
-.PHONY : receiver.c.i
+receiver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/receiver.dir/build.make CMakeFiles/receiver.dir/receiver.cpp.i
+.PHONY : receiver.cpp.i
 
-receiver.s: receiver.c.s
+receiver.s: receiver.cpp.s
 .PHONY : receiver.s
 
 # target to generate assembly for a file
-receiver.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/receiver.dir/build.make CMakeFiles/receiver.dir/receiver.c.s
-.PHONY : receiver.c.s
+receiver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/receiver.dir/build.make CMakeFiles/receiver.dir/receiver.cpp.s
+.PHONY : receiver.cpp.s
 
-sender.o: sender.c.o
+sender.o: sender.cpp.o
 .PHONY : sender.o
 
 # target to build an object file
-sender.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sender.dir/build.make CMakeFiles/sender.dir/sender.c.o
-.PHONY : sender.c.o
+sender.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sender.dir/build.make CMakeFiles/sender.dir/sender.cpp.o
+.PHONY : sender.cpp.o
 
-sender.i: sender.c.i
+sender.i: sender.cpp.i
 .PHONY : sender.i
 
 # target to preprocess a source file
-sender.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sender.dir/build.make CMakeFiles/sender.dir/sender.c.i
-.PHONY : sender.c.i
+sender.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sender.dir/build.make CMakeFiles/sender.dir/sender.cpp.i
+.PHONY : sender.cpp.i
 
-sender.s: sender.c.s
+sender.s: sender.cpp.s
 .PHONY : sender.s
 
 # target to generate assembly for a file
-sender.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sender.dir/build.make CMakeFiles/sender.dir/sender.c.s
-.PHONY : sender.c.s
+sender.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sender.dir/build.make CMakeFiles/sender.dir/sender.cpp.s
+.PHONY : sender.cpp.s
 
 # Help Target
 help:

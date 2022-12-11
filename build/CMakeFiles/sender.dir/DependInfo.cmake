@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/kose/workspace/shared_memory2/sender.c" "CMakeFiles/sender.dir/sender.c.o" "gcc" "CMakeFiles/sender.dir/sender.c.o.d"
+  "/home/kose/workspace/shared_memory2/sender.cpp" "CMakeFiles/sender.dir/sender.cpp.o" "gcc" "CMakeFiles/sender.dir/sender.cpp.o.d"
   )
 
 # Targets to which this target links.

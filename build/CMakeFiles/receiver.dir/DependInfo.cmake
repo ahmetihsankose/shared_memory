@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/kose/workspace/shared_memory2/receiver.c" "CMakeFiles/receiver.dir/receiver.c.o" "gcc" "CMakeFiles/receiver.dir/receiver.c.o.d"
+  "/home/kose/workspace/shared_memory2/receiver.cpp" "CMakeFiles/receiver.dir/receiver.cpp.o" "gcc" "CMakeFiles/receiver.dir/receiver.cpp.o.d"
   )
 
 # Targets to which this target links.
