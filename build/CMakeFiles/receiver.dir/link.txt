@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/receiver.dir/receiver.cpp.o -o receiver  -lpthread -lrt 
