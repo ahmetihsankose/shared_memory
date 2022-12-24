@@ -24,11 +24,11 @@ int main()
         {
         case '1':
             std::cin >> temp2;
-            master_shm.settings->cycle_time = temp2;
+            SharedMemory::settings->cycle_time = temp2;
             break;
         case '2':
             std::cin >> temp2;
-            master_shm.slave[0]->CyclicSendData[0] = temp2;
+            SharedMemory::slave[0]->CyclicSendData[0] = temp2;
             break;
         case 'q':
             master_shm.destroy();

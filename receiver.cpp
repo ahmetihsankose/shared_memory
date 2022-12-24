@@ -24,8 +24,8 @@ int main()
     {
         auto start = clock::now();
         std::cout << "XXXXXXXXXXXXXXXXXXXXXXXXX" << std::endl;
-        std::cout << master_shm1.settings->cycle_time << std::endl;
-        std::cout << master_shm1.slave[0]->CyclicSendData[0] << std::endl;
+        std::cout << SharedMemory::settings->cycle_time << std::endl;
+        std::cout << SharedMemory::slave[0]->CyclicSendData[0] << std::endl;
         std::cout << "XXXXXXXXXXXXXXXXXXXXXXXXX" << std::endl;
 
         auto end = clock::now();
