@@ -34,12 +34,21 @@ public:
         int32_t cyclicTime;
     };
 
+    struct SDO
+    {
+        int16_t index;
+        int16_t subIndex;
+        uint8_t data[40];
+    };
+
     struct Slave
     {
         int32_t cyclicTxPdo[MAX_PDO_COUNT];
         int32_t cyclicRxPdo[MAX_PDO_COUNT];
         int16_t ecState;
         int16_t type;
+        SDO sdo;
+
     };
 
     static General *general;
